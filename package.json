@@ -1,0 +1,21 @@
+{
+  "name": "latex-service",
+  "version": "1.0.0",
+  "description": "Render latex to svg and save to S3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "tape tests/*.js",
+    "update": "claudia update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/data-skeptic/latex-service"
+  },
+  "author": "Kyle Polich",
+  "license": "ISC",
+  "dependencies": {
+    "claudia": "^5.2.0",
+    "mathjax-node": "^2.1.1"
+  }
+}

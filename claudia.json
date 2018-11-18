@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "latex-service-executor",
+    "name": "latex-service",
+    "region": "us-east-1"
+  }
+}
